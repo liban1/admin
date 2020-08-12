@@ -27,8 +27,7 @@
       <uniqueVersion>true</uniqueVersion>
       <id>admin-snapshots</id>
       <name>admin-snapshots</name>
-      <url>http://ec2-3-228-24-6.compute-1.amazonaws.com:8081/repository/admin-Release/</url>
-        <layout>default</layout>
+      <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
