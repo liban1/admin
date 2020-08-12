@@ -20,13 +20,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>admin-releases</id>
       <name>admin-releases</name>
-<url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
-	        <layout>default</layout>
-    </repository>
-    <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
-      <id>admin-snapshots</id>
-      <name>admin-snapshots</name>
+      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
@@ -34,7 +28,7 @@
       <id>admin-snapshots</id>
       <name>admin-snapshots</name>
       <url>http://ec2-3-228-24-6.compute-1.amazonaws.com:8081/repository/admin-snapshots/</url>
-   <layout>legacy</layout>
+      <layout>default</layout>
     </snapshotRepository>
-  </distributionManagement>
+   </distributionManagement>
 </project>
