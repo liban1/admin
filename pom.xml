@@ -4,7 +4,7 @@
   <groupId>com.ip.app</groupId>
   <artifactId>admin</artifactId>
   <packaging>jar</packaging>
-  <version>2.0-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   <name>admin</name>
   <url>http://maven.apache.org</url>
 <dependencies>
@@ -27,7 +27,7 @@
       <uniqueVersion>true</uniqueVersion>
       <id>admin-snapshots</id>
       <name>admin-snapshots</name>
-      <url>http://ec2-3-236-215-18.compute-1.amazonaws.com:8081/repository/admin-snapshots//</url>
+      <url>http://ec2-3-236-215-18.compute-1.amazonaws.com:8081/repository/admin-snapshots/</url>
       <layout>default</layout>
     </snapshotRepository>
    </distributionManagement>
