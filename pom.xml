@@ -4,7 +4,7 @@
   <groupId>com.ip.app</groupId>
   <artifactId>admin</artifactId>
   <packaging>jar</packaging>
-  <version>3.0</version>
+  <version>2.0</version>
   <name>admin</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -20,7 +20,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>admin-releases</id>
       <name>admin-releases</name>
-      <url>http://ec2-3-83-85-225.compute-1.amazonaws.com:8081/repository/admin-Release</url>
+      <url>http://ec2-3-83-85-225.compute-1.amazonaws.com:8081/repository/admin-Releases</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
