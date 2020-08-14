@@ -20,7 +20,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>admin-releases</id>
       <name>admin-releases</name>
-      <url>http://ec2-3-83-85-225.compute-1.amazonaws.com:8081/repository/admin-Releases</url>
+      <url>http://ec2-3-83-85-225.compute-1.amazonaws.com:8081/repository/admin-Release</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
