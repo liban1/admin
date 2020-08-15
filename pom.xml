@@ -43,14 +43,12 @@
       <id>spring-releases</id>
       <name>spring-releases</name>
       <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/spring-Releases</url>
-      <layout>default</layout>
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
       <name>spring-snapshots</name>
       <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/spring-snapshots</url>
-      <layout>default</layout>
-    </snapshotRepository>
+   </snapshotRepository>
   </distributionManagement>
 </profile>
   </profiles>
