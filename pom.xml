@@ -5,7 +5,7 @@
   <artifactId>AdminExample</artifactId>
   <packaging>jar</packaging>
   <version>2.0.3-SNAPSHOT</version>
-  <name>SpringExample</name>
+  <name>AdminExample</name>
   <!--url>http://maven.apache.org</url-->
 
   <repositories>
