@@ -12,7 +12,7 @@
     <repository>
       <id>my-repo2</id>
       <name>public</name>
-      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/nexus/content/groups/public/</url>
+      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/nexus/content/groups/public</url>
     </repository>
     <repository>
       <id>my-repo1</id>
@@ -42,7 +42,7 @@
     <repository>
       <id>spring-releases</id>
       <name>spring-releases</name>
-      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/spring-Release</url>
+      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/spring-Releases</url>
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
