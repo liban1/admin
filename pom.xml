@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>admin-releases</id>
       <name>admin-releases</name>
-      <url>http://ec2-35-168-110-91.compute-1.amazonaws.com:8081/repository/admin-Releases</url>
+      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/admin-Releases</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>admin-snapshots</id>
       <name>admin-snapshots</name>
-      <url>http://ec2-35-168-110-91.compute-1.amazonaws.com:8081/repository/admin-snapshots/</url>
+      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/admin-snapshots</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
