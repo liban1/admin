@@ -21,6 +21,7 @@
       <id>admin-releases</id>
       <name>admin-releases</name>
       <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/admin-Releases</url>
+      <artifactId>maven-compiler-plugin</artifactId>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
@@ -28,19 +29,11 @@
       <id>admin-snapshots</id>
       <name>admin-snapshots</name>
       <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/admin-snapshots</url>
+      <artifactId>maven-compiler-plugin</artifactId>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
-  </plugin>
-    <plugin>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>2.5.1</version>
-    <configuration>
-      <source>1.5</source>
-      <target>1.5</target>
-      </configuration>
-   </plugin>
- </plugins>
+  
 </project>
 
 
