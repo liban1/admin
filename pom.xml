@@ -32,16 +32,15 @@
     </snapshotRepository>
   </distributionManagement>
   </plugin>
-  <plugin>
-   <artifactId>maven-compiler-plugin</artifactId>
-   <version>2.5.1</version>
-   <configuration>
+    <plugin>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>2.5.1</version>
+    <configuration>
       <source>1.5</source>
       <target>1.5</target>
       </configuration>
-    </plugin>
-
-    </plugins>
+   </plugin>
+ </plugins>
 </project>
 
 
