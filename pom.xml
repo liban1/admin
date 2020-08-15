@@ -4,7 +4,7 @@
   <groupId>com.mkyong.common</groupId>
   <artifactId>adminExample</artifactId>
   <packaging>jar</packaging>
-  <versio>1.0</version>
+  <version>1.0</version>
   <name>adminExample</name>
   <!--url>http://maven.apache.org</url-->
 
