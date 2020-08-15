@@ -31,7 +31,7 @@
     <!-- Admin framework -->
 	<dependency>
 		<groupId>org.adminframework</groupId>
-		<artifactId>spring</artifactId>
+		<artifactId>admin</artifactId>
 		<version>2.5.6</version>
 	</dependency> 
   </dependencies>
