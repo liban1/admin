@@ -13,7 +13,6 @@
       <id>my-repo2</id>
       <name>spring</name>
       <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/nexus/content/groups/public</url>
-      <layout>default</layout>
     </repository>
     <repository>
       <id>my-repo1</id>
@@ -50,6 +49,7 @@
       <id>spring-snapshots</id>
       <name>spring-snapshots</name>
       <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/spring-snapshots</url>
+      <layout>default</layout>
     </snapshotRepository>
   </distributionManagement>
 </profile>
