@@ -28,7 +28,7 @@
       <scope>test</scope>
     </dependency>
     
-    <!-- Admin framework -->
+    <!-- Spring framework -->
 	<dependency>
 		<groupId>org.adminframework</groupId>
 		<artifactId>admin</artifactId>
