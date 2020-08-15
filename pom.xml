@@ -1,12 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ip.app</groupId>
-  <artifactId>admin</artifactId>
+  <groupId>com.mkyong.common</groupId>
+  <artifactId>SpringExample</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
-  <name>admin</name>
-  <url>http://maven.apache.org</url>
+  <version>2.0.3-SNAPSHOT</version>
+  <name>SpringExample</name>
+  <!--url>http://maven.apache.org</url-->
+
+  <repositories>
+    <repository>
+      <id>my-repo2</id>
+      <name>public</name>
+      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/nexus/content/groups/public/</url>
+    </repository>
+    <repository>
+      <id>my-repo1</id>
+      <name>your custom repo</name>
+      <url>http://maven.apache.org</url>
+    </repository>
+ </repositories>  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -14,25 +27,32 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- Admin framework -->
+	<dependency>
+		<groupId>org.adminframework</groupId>
+		<artifactId>spring</artifactId>
+		<version>2.5.6</version>
+	</dependency> 
   </dependencies>
-    <distributionManagement>
+<profiles>
+<profile>
+     <id>admin-deploy</id>
+ <distributionManagement>
     <repository>
-      <uniqueVersion>false</uniqueVersion>
       <id>admin-releases</id>
       <name>admin-releases</name>
       <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/admin-Releases</url>
-      <layout>default</layout>
     </repository>
     <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
       <id>admin-snapshots</id>
       <name>admin-snapshots</name>
       <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/admin-snapshots</url>
-      <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
- </project>
-
+</profile>
+  </profiles>
+</project>
 
 
 
