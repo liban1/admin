@@ -37,7 +37,7 @@
   </dependencies>
 <profiles>
 <profile>
-     <id>devops-deploy</id>
+     <id>spring-deploy</id>
  <distributionManagement>
     <repository>
       <id>spring-releases</id>
