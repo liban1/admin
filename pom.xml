@@ -4,8 +4,8 @@
   <groupId>com.mkyong.common</groupId>
   <artifactId>adminExample</artifactId>
   <packaging>jar</packaging>
-  <version>2.0.3-SNAPSHOT</version>
-  <name>AdminExample</name>
+  <versio>1.0</version>
+  <name>adminExample</name>
   <!--url>http://maven.apache.org</url-->
 
   <repositories>
