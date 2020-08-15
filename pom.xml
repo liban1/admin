@@ -11,7 +11,7 @@
   <repositories>
     <repository>
       <id>my-repo2</id>
-      <name>public</name>
+      <name>admin</name>
       <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/nexus/content/groups/public</url>
     </repository>
     <repository>
