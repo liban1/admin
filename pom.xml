@@ -30,7 +30,7 @@
     
     <!-- Spring framework -->
 	<dependency>
-		<groupId>org.adminframework</groupId>
+		<groupId>org.springframework</groupId>
 		<artifactId>admin</artifactId>
 		<version>2.5.6</version>
 	</dependency> 
