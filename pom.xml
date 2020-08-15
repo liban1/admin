@@ -37,17 +37,17 @@
   </dependencies>
 <profiles>
 <profile>
-     <id>admin-deploy</id>
+     <id>spring-deploy</id>
  <distributionManagement>
     <repository>
-      <id>admin-releases</id>
-      <name>admin-releases</name>
-      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/admin-Releases</url>
+      <id>spring-releases</id>
+      <name>spring-releases</name>
+      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/spring-Releases</url>
     </repository>
     <snapshotRepository>
-      <id>admin-snapshots</id>
-      <name>admin-snapshots</name>
-      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/admin-snapshots</url>
+      <id>spring-snapshots</id>
+      <name>spring-snapshots</name>
+      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/repository/spring-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
