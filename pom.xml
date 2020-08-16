@@ -9,9 +9,10 @@
   <!--url>http://maven.apache.org</url-->
 
   <repositories>
-  <repository>
+    <repository>
       <id>my-repo2</id>
       <name>spring</name>
+<url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/#admin/repository/repositories</url>
    </repository>
     <repository>
       <id>my-repo1</id>
