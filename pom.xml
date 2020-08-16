@@ -42,12 +42,12 @@
     <repository>
       <id>spring-release</id>
       <name>spring-release</name>
- <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/#browse/browse:spring-release</url>
+ <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/#admin/repository/repositories:spring-release</url>
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
       <name>spring-snapshots</name>
-      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/#browse/browse:spring-snapshots</url>
+      <url>http://ec2-35-172-121-155.compute-1.amazonaws.com:8081/#admin/repository/repositories:spring-snapshots</url>
    </snapshotRepository>
   </distributionManagement>
 </profile>
