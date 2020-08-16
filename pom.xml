@@ -17,7 +17,7 @@
     <repository>
       <id>my-repo1</id>
       <name>your custom repo</name>
-      <url>http://maven.apache.org</url>
+      <url>http://maven.spring.org</url>
     </repository>
  </repositories>  
   <dependencies>
