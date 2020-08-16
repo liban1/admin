@@ -9,7 +9,7 @@
   <!--url>http://maven.apache.org</url-->
 
   <repositories>
-    <repository>
+   <repository>
       <id>my-repo2</id>
       <name>spring</name>
    </repository>
