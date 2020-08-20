@@ -35,8 +35,9 @@
 		<version>2.5.6</version>
 	</dependency> 
   </dependencies>
-
-  <id>admin-deploy</id>
+<profiles>
+<profile>
+     <id>admin-deploy</id>
  <distributionManagement>
     <repository>
       <id>spring-release</id>
@@ -49,7 +50,8 @@
       <url>http://ec2-3-236-148-53.compute-1.amazonaws.com:8081/repository/spring-snapshots</url>
    </snapshotRepository>
   </distributionManagement>
-<
+</profile>
+  </profiles>
 </project>
 
 
