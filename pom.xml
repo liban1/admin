@@ -35,7 +35,7 @@
 		<version>2.5.6</version>
 	</dependency> 
   </dependencies>
-     <id>spring-deploy</id>
+     <id>admin-deploy</id>
  <distributionManagement>
     <repository>
        <uniqueVersion>false</uniqueVersion>
