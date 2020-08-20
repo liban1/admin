@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ip.app</groupId>
+  <groupId>com.ip.spring</groupId>
   <artifactId>springExample</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
@@ -35,23 +35,21 @@
 		<version>2.5.6</version>
 	</dependency> 
   </dependencies>
-<profiles>
-<profile>
-     <id>admin-deploy</id>
+     <id>spring-deploy</id>
  <distributionManagement>
     <repository>
-      <id>spring-release</id>
-      <name>spring-release</name>
+       <uniqueVersion>false</uniqueVersion>
+       <id>spring-release</id>
+      <name>spring-releases</name>
  <url>http://ec2-3-236-148-53.compute-1.amazonaws.com:8081/repository/spring-releases</url>
     </repository>
     <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion
       <id>spring-snapshots</id>
       <name>spring-snapshots</name>
       <url>http://ec2-3-236-148-53.compute-1.amazonaws.com:8081/repository/spring-snapshots</url>
    </snapshotRepository>
   </distributionManagement>
-</profile>
-  </profiles>
 </project>
 
 
