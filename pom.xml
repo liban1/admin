@@ -5,7 +5,7 @@
   <artifactId>springExample</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
-  <name>springExample</name>
+  <name>adminExample</name>
   <!--url>http://maven.apache.org</url-->
 
   <repositories>
