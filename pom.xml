@@ -31,8 +31,6 @@
       <layout>legacy</layout>
    </snapshotRepository>
   </distributionManagement>
-</profile>
-  </profiles>
 </project>
 
 
