@@ -26,7 +26,7 @@
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>spring-snapshots</id>
-      <name>snapshots</name>
+      <name>spring-snapshots</name>
       <url>http://ec2-18-208-126-94.compute-1.amazonaws.com:8081/#admin/repository/repositories:spring-snapshots</url>
       <layout>legacy</layout>
    </snapshotRepository>
