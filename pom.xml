@@ -18,7 +18,7 @@
    <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>	    
-      <id>releases</id>
+      <id>spring-releases</id>
       <name>spring-releases</name>
       <url>http://ec2-18-208-126-94.compute-1.amazonaws.com:8081/#admin/repository/repositories:spring-releases</url>
       <layout>default</layout>
