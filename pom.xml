@@ -18,15 +18,15 @@
    <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>	    
-      <id>releases</id>
-      <name>spring-releases</name>
+      <id>liban1-releases</id>
+      <name>liban1-releases</name>
       <url>http://ec2-3-235-173-204.compute-1.amazonaws.com:8081/repository/liban1-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>Snapshots</id>
-      <name>spring-snapshots</name>
+      <id>liban1-snapshots</id>
+      <name>liban1-snapshots</name>
       <url>http://ec2-3-235-173-204.compute-1.amazonaws.com:8081/repository/liban1-snapshots/</url>
       <layout>legacy</layout>
    </snapshotRepository>
