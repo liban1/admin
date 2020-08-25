@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>	    
       <id>releases</id>
       <name>spring-releases</name>
-      <url>http://ec2-18-208-126-94.compute-1.amazonaws.com:8081/#admin/repository/repositories:spring-releases</url>
+      <url>http://ec2-3-235-173-204.compute-1.amazonaws.com:8081/repository/liban1-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>Snapshots</id>
       <name>spring-snapshots</name>
-      <url>http://ec2-18-208-126-94.compute-1.amazonaws.com:8081/#admin/repository/repositories:spring-snapshots</url>
+      <url>http://ec2-3-235-173-204.compute-1.amazonaws.com:8081/repository/liban1-snapshots/</url>
       <layout>legacy</layout>
    </snapshotRepository>
   </distributionManagement>
