@@ -25,7 +25,7 @@
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>liban1-snapshots/</id>
+      <id>liban1-snapshots</id>
       <name>liban1-snapshots</name>
       <url>http://ec2-3-235-173-204.compute-1.amazonaws.com:8081/repository/liban1-snapshots/</url>
       <layout>legacy</layout>
