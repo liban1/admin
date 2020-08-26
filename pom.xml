@@ -30,7 +30,7 @@
       <url>http://ec2-3-235-173-204.compute-1.amazonaws.com:8081/repository/liban1-snapshots/</url>
       <layout>legacy</layout>
    </snapshotRepository>
-  </distributionManagement
+  </distributionManagement>
 </project>
 
 
