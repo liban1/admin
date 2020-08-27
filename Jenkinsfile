@@ -1,7 +1,7 @@
 node("maven-label") {
     def mvnHome
     stage('Preparation') { 
-        \\git branch: 'dev', url: 'https://github.com/liban1/admin.git'
+        //git branch: 'dev', url: 'https://github.com/liban1/admin.git'
         checkout scm
         mvnHome = tool 'maven-3.6.3'
     }
