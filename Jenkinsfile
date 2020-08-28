@@ -6,7 +6,7 @@ node("maven-label") {
         mvnHome = tool 'maven-3.6.3'
     }
     stage('Build') {
-        input message: 'can you provide approval  to proceed to build', ok: 'ok', submitter: 'devops'
+        input message: 'can you provide approval  to proceed to build', Ok: 'Ok', submitter: 'devops'
        
         withEnv(["MVN_HOME=$mvnHome"]) {
             if (isUnix()) {
