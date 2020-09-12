@@ -30,16 +30,7 @@
       <url>http://ec2-100-26-140-73.compute-1.amazonaws.com:8081/repository/liban1-snapshots/</url>
       <layout>legacy</layout>
    </snapshotRepository>
-     <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-compiler-plugin</artifactId>
-      <configuration>
-        <compilerVersion>1.5</compilerVersion>
-        <source>1.5</source>
-        <target>1.5</target>
-      </configuration>
-    </plugin>
-  </distributionManagement>
+ </distributionManagement>
 </project>
 
 
