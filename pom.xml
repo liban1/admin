@@ -30,6 +30,10 @@
       <url>http://ec2-100-26-140-73.compute-1.amazonaws.com:8081/repository/liban1-snapshots/</url>
       <layout>legacy</layout>
    </snapshotRepository>
+     <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+</properties>
  </distributionManagement>
 </project>
 
