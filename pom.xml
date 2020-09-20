@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>	    
       <id>liban1-releases</id>
       <name>liban1-releases</name>
-      <url>http://ec2-100-26-140-73.compute-1.amazonaws.com:8081/repository/liban1-releases</url>
+      <url>http://192.168.194.176 :8081/repository/liban1-releases</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>liban1-snapshots</id>
       <name>liban1-snapshots</name>
-      <url>http://ec2-100-26-140-73.compute-1.amazonaws.com:8081/repository/liban1-snapshots/</url>
+      <url>http://192.168.194.176:8081/repository/liban1-snapshots/</url>
       <layout>legacy</layout>
    </snapshotRepository>
  </distributionManagement>
